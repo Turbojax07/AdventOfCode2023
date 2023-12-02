@@ -29,6 +29,16 @@ import Day24.Day24;
 import Day25.Day25;
 
 public class Controller {
+    /*
+     * How to use Controller.java
+     * The classes are already imported into the file, so all you will edit is in the main function below.
+     * 
+     * To test a script, go down and change the path to point to the correct input.txt file. (EX: Day3/input.txt for day 3 testing)
+     * You can change the path that the file is accessed at by changing the string.
+     * 
+     * To run a function from a Day's challenge, write out the day and run the function part1 or part2.  Don't forget to pass the input Scanner as a variable!
+     * (EX: Day3.part1(input) to test part 1 of day 3's challenge)
+     */
     public static void main(String[] args) throws FileNotFoundException {
         File file = new File("Day2/input.txt");
         Scanner input = new Scanner(file);

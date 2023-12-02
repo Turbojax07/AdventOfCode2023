@@ -3,6 +3,7 @@ package Day2;
 import java.util.Scanner;
 
 public class Day2 {
+    // Answer: 2439
     public static void part1(Scanner input) {
         int total = 0;
         while (input.hasNextLine()) {
@@ -33,6 +34,7 @@ public class Day2 {
         System.out.println(total);
     }
 
+    // Answer: 65711
     public static void part2(Scanner input) {
         int total = 0;
         while (input.hasNextLine()) {

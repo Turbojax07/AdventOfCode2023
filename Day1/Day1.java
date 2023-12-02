@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Day1 {
+    // Answer: 54634
     public static void part1(Scanner input) {
         int count = 0;
         ArrayList<String> ints = new ArrayList<String>();
@@ -61,7 +62,10 @@ public class Day1 {
         }
 
         System.out.println(count);
-        // Pt 1 Answer: 54634 -- Correct
-        // Pt 2 Answer: 53855 -- Correct
+    }
+
+    // Answer: 53855
+    public static void part2(Scanner input) {
+        System.out.println("I do not have a working algorithm for this yet.  Please refer to Test.java for a part 2 algorithm.");
     }
 }
