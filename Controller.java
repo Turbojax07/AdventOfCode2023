@@ -39,9 +39,9 @@ public class Controller {
      * (EX: Day3.part1(input) to test part 1 of day 3's challenge)
      */
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("Day5/input.txt");
+        File file = new File("Day6/input.txt");
         Scanner input = new Scanner(file);
 
-        Day5.part1(input);
+        Day6.part1(input);
     }
 }
