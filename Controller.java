@@ -1,6 +1,5 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 import Day1.Day1;
 import Day2.Day2;
@@ -40,9 +39,9 @@ public class Controller {
      * (EX: Day3.part1(input) to test part 1 of day 3's challenge)
      */
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("Day2/input.txt");
+        File file = new File("Day5/input.txt");
         Scanner input = new Scanner(file);
 
-        Day2.part2(input);
+        Day5.part1(input);
     }
 }
