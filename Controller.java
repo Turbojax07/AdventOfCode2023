@@ -42,6 +42,6 @@ public class Controller {
         File file = new File("Day6/input.txt");
         Scanner input = new Scanner(file);
 
-        Day6.part1(input);
+        Day6.part2(input);
     }
 }

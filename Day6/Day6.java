@@ -47,5 +47,27 @@ public class Day6 {
         System.out.println(count);
     }
 
-    public static void part2(Scanner input) {}
+    public static void part2(Scanner input) {
+        // Collecting input
+        String timeStr = input.nextLine();
+        String distStr = input.nextLine();
+
+        // Removing all spaces from the string.
+        timeStr = timeStr.replace(" ", "");
+        distStr = distStr.replace(" ", "");
+
+        // Singling out the large numbers we have created.
+        double time = Double.parseDouble(timeStr.split(":")[1]);
+        double dist = Double.parseDouble(distStr.split(":")[1]);
+
+        // Getting the number of wins for the number
+        double numWins = 0;
+        double temp = time - 1;
+        for (double y = 1; y < time; y++) {
+            if (dist < y * temp) numWins++;
+            temp--;
+        }
+
+        System.out.println(numWins);
+    }
 }
